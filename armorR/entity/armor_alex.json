@@ -1,0 +1,87 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "dfsteve:armor_alex",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "textures": {
+            "default": "textures/entity/armor_stand/alex/armor_alex",
+            "a": "textures/entity/armor_stand/alex/armor_alex_1",
+            "b": "textures/entity/armor_stand/alex/armor_alex_2",
+            "c": "textures/entity/armor_stand/alex/armor_alex_3",
+            "d": "textures/entity/armor_stand/alex/armor_alex_4",
+            "e": "textures/entity/armor_stand/alex/armor_alex_5",
+            "f": "textures/entity/armor_stand/alex/armor_alex_6",
+            "g": "textures/entity/armor_stand/alex/armor_alex_7",
+            "h": "textures/entity/armor_stand/alex/armor_alex_8",
+            "i": "textures/entity/armor_stand/alex/armor_alex_9",
+            "j": "textures/entity/armor_stand/alex/armor_alex_10",
+            "k": "textures/entity/armor_stand/alex/armor_alex_11",
+            "l": "textures/entity/armor_stand/alex/armor_alex_12",
+            "m": "textures/entity/armor_stand/alex/armor_alex_13",
+            "n": "textures/entity/armor_stand/alex/armor_alex_14",
+            "o": "textures/entity/armor_stand/alex/armor_alex_15",
+            "p": "textures/entity/armor_stand/alex/armor_alex_16",
+            "q": "textures/entity/armor_stand/alex/armor_alex_17",
+            "r": "textures/entity/armor_stand/alex/armor_alex_18",
+            "s": "textures/entity/armor_stand/alex/armor_alex_19",
+            "t": "textures/entity/armor_stand/alex/armor_alex_20",
+            "u": "textures/entity/armor_stand/alex/armor_alex_21",
+            "v": "textures/entity/armor_stand/alex/armor_alex_22",
+            "w": "textures/entity/armor_stand/alex/armor_alex_23"
+          },
+          "animations": {
+            "default_pose": "animation.dfsteve_armor.default_pose",
+            "kawaii": "animation.dfsteve_armor.kawaii",
+            "solemn_pose": "animation.dfsteve_armor.solemn_pose",
+            "athena_pose": "animation.dfsteve_armor.athena_pose",
+            "brandish_pose": "animation.dfsteve_armor.brandish_pose",
+            "honor_pose": "animation.dfsteve_armor.honor_pose",
+            "entertain_pose": "animation.dfsteve_armor.entertain_pose",
+            "salute_pose": "animation.dfsteve_armor.salute_pose",
+            "riposte_pose": "animation.dfsteve_armor.riposte_pose",
+            "zombie_pose": "animation.dfsteve_armor.zombie_pose",
+            "cancan_a_pose": "animation.dfsteve_armor.cancan_a_pose",
+            "cancan_b_pose": "animation.dfsteve_armor.cancan_b_pose",
+            "hero_pose": "animation.dfsteve_armor.hero_pose",
+            "wiggle": "animation.dfsteve_armor.wiggle",
+            "qitao": "animation.dfsteve_armor.qitao_pose",
+            "hello": "animation.dfsteve_armor.hello_pose",
+            "jojo": "animation.dfsteve_armor.jojo_pose",
+            "dontstop": "animation.dfsteve_armor.dontstop_pose",
+            "bata": "animation.dfsteve_armor.bata_pose",
+            "sneak": "animation.dfsteve_armor.sneak_pose",
+            "sleep": "animation.dfsteve_armor.sleep_pose",
+            "sleep2": "animation.dfsteve_armor.sleep2_pose",
+            "houbunjump": "animation.dfsteve_armor.houbunjump_pose",
+            "controller.pose": "controller.animation.dfsteve_armor.pose",
+            "controller.wiggling": "controller.animation.dfsteve_armor.wiggle",
+            "move": "animation.dfsteve_armor.move",
+            "controller.armor_move": "controller.animation.dfsteve_armor.move",
+            "theworld": "controller.animation.theworld",
+            "armor_theworld": "animation.humanoid.move",
+            "stop": "animation.dfsteve_armor.stop"
+          },
+          "scripts": {
+            "initialize": [
+              "variable.armor_stand.pose_index = 0;",
+              "variable.armor_stand.hurt_time = 0;"
+            ],
+            "animate": [
+              "controller.pose",
+              "controller.wiggling",
+              "controller.armor_move",
+              "theworld"
+            ]
+          },
+          "geometry": {
+            "default": "geometry.armor_alex",
+              "cape": "geometry.cape"
+          },
+          "render_controllers": [ "controller.render.armor_alex" ],
+          "enable_attachables": true
+        }
+      }
+    }

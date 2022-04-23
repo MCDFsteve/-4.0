@@ -1,0 +1,25 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "作者§a戴夫邻居史蒂夫§3.中国版版本",
+        "name": "§l§b逼真盔甲架4.0§dPro  ",
+        "uuid": "603e6ec5-e0b1-8a03-45c2-61fea7605a9a",
+ "min_engine_version": [ 1,10,0 ],
+        "version": [4, 1, 11]
+    },
+    "mi_engine_version": [ 1,10,0 ],
+    "modules": [
+        {
+            "description": "作者§a戴夫邻居史蒂夫§3.中国版版本",
+            "type": "data",
+            "uuid": "5e8e8365-d026-5f01-d259-6d9765f8bae4",
+            "version": [4, 1, 11]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "806b9b7d-dcb0-31d4-d4f3-0ce94165ec3f",
+            "version": [4, 1, 11]
+        }
+    ]
+}
